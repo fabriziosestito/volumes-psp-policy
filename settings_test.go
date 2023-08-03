@@ -52,7 +52,7 @@ func TestParsingSettingsWithNoValueProvided(t *testing.T) {
 		t.Errorf("Unexpected error %+v", err)
 	}
 
-	if settings.AllowedTypes.Cardinality() != 0 {
+	if settings.AllowedTypes.Size() != 0 {
 		t.Errorf("Expected AllowedTypes to be empty")
 	}
 }

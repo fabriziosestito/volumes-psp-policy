@@ -6,6 +6,9 @@ github.com/francoispqt/gojay v0.0.0-20181220093123-f2cc13a668ca h1:F2BD6Vhei4w0r
 github.com/francoispqt/gojay v0.0.0-20181220093123-f2cc13a668ca/go.mod h1:H8Wgri1Asi1VevY3ySdpIK5+KCpqzToVswNq8g2xZj4=
 github.com/francoispqt/onelog v0.0.0-20190306043706-8c2bb31b10a4 h1:N9eG+1y9e3tnNPXKjssLMa8MumIBDWWoJQWM7htGWUc=
 github.com/francoispqt/onelog v0.0.0-20190306043706-8c2bb31b10a4/go.mod h1:v1Il1fkBpjiYPpEJcGxqgrPUPcHuTC7eHh9zBV3CLBE=
+github.com/google/go-cmp v0.5.9 h1:O2Tfq5qg4qc4AmwVlvv0oLiVAGB7enBSJ2x2DqQFi38=
+github.com/hashicorp/go-set v0.1.13 h1:k1B5goY3c7OKEzpK+gwAhJexxzAJwDN8kId8YvWrihA=
+github.com/hashicorp/go-set v0.1.13/go.mod h1:0/D+R4MFUzJ6XmvjU7liXtznF1eQDxh84GJlhXw+lvo=
 github.com/kubewarden/gjson v1.7.2 h1:+cLRfPqyvjwrkgE68cGdNfUy1Z6L45DjvuFH9/ofwQ0=
 github.com/kubewarden/gjson v1.7.2/go.mod h1:jSlxpubGqBG5HHe4v8kwcc8z1JF2reJ7AJAUojw66AY=
 github.com/kubewarden/k8s-objects v1.27.0-kw2 h1:6ZA72SFtDSbCupwxlIyJimUzN0nSweMCUx5jUEnoxkw=
@@ -16,6 +19,7 @@ github.com/kubewarden/strfmt v0.1.3 h1:bb+2rbotioROjCkziSt+hqnHXzOlumN94NxDKdV2k
 github.com/kubewarden/strfmt v0.1.3/go.mod h1:DXoaaIYwqW1LyyRoMeyxfHUU+VUSTNFdj38juCXfRzs=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/shoenig/test v0.6.4 h1:kVTaSd7WLz5WZ2IaoM0RSzRsUD+m8wRR+5qvntpn4LU=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk=
 github.com/tidwall/match v1.0.3 h1:FQUVvBImDutD8wJLN6c5eMzWtjgONK9MwIBCOrUJKeE=

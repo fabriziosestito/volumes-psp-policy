@@ -7,7 +7,7 @@
 version: 0.1.11
 name: volumes-psp
 displayName: Volumes PSP
-createdAt: 2023-08-02T16:36:36.193322442Z
+createdAt: 2023-08-03T11:41:33.952678739Z
 description: Pod Security Policy that controls usage of volumes
 license: Apache-2.0
 homeURL: https://github.com/kubewarden/volumes-psp-policy

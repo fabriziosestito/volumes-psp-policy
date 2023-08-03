@@ -5,6 +5,7 @@ go 1.20
 require (
 	github.com/deckarep/golang-set/v2 v2.3.0
 	github.com/francoispqt/onelog v0.0.0-20190306043706-8c2bb31b10a4
+	github.com/hashicorp/go-set v0.1.13
 	github.com/kubewarden/gjson v1.7.2
 	github.com/kubewarden/policy-sdk-go v0.5.0
 	github.com/wapc/wapc-guest-tinygo v0.3.3

@@ -17,14 +17,14 @@ func validate(payload []byte) ([]byte, error) {
 			kubewarden.Code(400))
 	}
 
-	if settings.AllowedTypes.Cardinality() == 0 {
+	if settings.AllowedTypes == nil || settings.AllowedTypes.Size() == 0 {
 		// empty AllowedType list, rejecting
 		return kubewarden.RejectRequest(
 			kubewarden.Message("No volume type is allowed"),
 			kubewarden.NoCode)
 	}
 
-	if (settings.AllowedTypes.Cardinality() == 1) &&
+	if (settings.AllowedTypes.Size() == 1) &&
 		settings.AllowedTypes.Contains("*") {
 		// all volume types accepted
 		return kubewarden.AcceptRequest()
